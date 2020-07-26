@@ -6,7 +6,6 @@ main:
     li a0, 0xAB
     li a1, 0x80000000
     st a0, 0(a1)
-    st a0, 4(a1)
     lt a2, 4(a1)
     bne a2, a0, fail
 

@@ -10,3 +10,5 @@ set_tests_properties(simple_fail PROPERTIES WILL_FAIL TRUE)
 
 add_test(testcase_1a ${CMAKE_CURRENT_SOURCE_DIR}/scripts/run_qemu.sh ${CMAKE_CURRENT_SOURCE_DIR}/build/tests/testcase_1a ${CMAKE_CURRENT_SOURCE_DIR})
 add_test(testcase_1b ${CMAKE_CURRENT_SOURCE_DIR}/scripts/run_qemu.sh ${CMAKE_CURRENT_SOURCE_DIR}/build/tests/testcase_1b ${CMAKE_CURRENT_SOURCE_DIR})
+add_test(testcase_1c ${CMAKE_CURRENT_SOURCE_DIR}/scripts/run_qemu.sh ${CMAKE_CURRENT_SOURCE_DIR}/build/tests/testcase_1c ${CMAKE_CURRENT_SOURCE_DIR})
+add_test(testcase_1d ${CMAKE_CURRENT_SOURCE_DIR}/scripts/run_qemu.sh ${CMAKE_CURRENT_SOURCE_DIR}/build/tests/testcase_1d ${CMAKE_CURRENT_SOURCE_DIR})

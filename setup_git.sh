@@ -15,3 +15,7 @@ cd ${ROOT_DIR}
 cd ${GCC_SRC_DIR}/riscv-binutils/
 git checkout riscv_mte-dev
 cd ${ROOT_DIR}
+
+cd ${LLVM_SRC_DIR}
+git checkout llvm10_mte
+cd ${ROOT_DIR}

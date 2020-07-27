@@ -9,6 +9,6 @@ function build_gcc ()
     cd "${GCC_BUILD_DIR}"
     ${GCC_SRC_DIR}/configure --prefix="${INSTALL_DIR}" --with-arch=${RISCV_ISA_TARGET}
     set -e
-    make newlib -j${CPU_NUM}
+    make linux -j${CPU_NUM}
 }
 
